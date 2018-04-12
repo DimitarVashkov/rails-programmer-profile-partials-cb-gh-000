@@ -16,6 +16,8 @@
     <strong>Home Country:</strong> <%= @programmer.home_country %><br>
     </p>
 
+    <%= render 'attribute', title: 'home_country', value: @programmer.home_country %>
+
     <p>
     <strong>Quote:</strong> <%= @programmer.quote %><br>
     </p>
